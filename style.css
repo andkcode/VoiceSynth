@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rockwell', sans-serif;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(125deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1 {
+    user-select: none;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.container h1 span{
+    color:#b44747;
+} 
+textarea {
+    width: 600px;
+    height: 250px;
+    background: #907070;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    color: #ddd;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.row button::after {
+    user-select: none;
+}
+
+button
+{
+    background: #de9191;
+    color: #915353;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+button img{
+    width: 25px;
+    margin-right: 7px;
+}
+select {
+    color: #fff;
+    background: #915353;
+    height: 45px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    flex: 1;
+    background-image: url(images/downmark.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 10px);
+    background-position-y: 17px;
+}
